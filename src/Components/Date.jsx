@@ -7,7 +7,6 @@ function Date() {
             <div className='Date'>
                 <span>Last Updated</span>
                 <span>3/8/2020</span>
-           
          </div>
   )
 }
