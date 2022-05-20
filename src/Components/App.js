@@ -2,14 +2,11 @@
 import '../Styles/App.css';
 import { Molecula1 } from './Molecula1';
 
-function App() {
+function App(props) {
+  const list=props.list
   return (
     <div className="App">
-      <>
-      <Molecula1/>
-      <Molecula1/>
-      <Molecula1/>
-      </>
+      {list.map((crear)=><Molecula1 theme={crear.theme}/>)}
     </div>
   );
 }

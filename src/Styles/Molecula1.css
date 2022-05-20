@@ -4,9 +4,17 @@
     padding: 0 20px 0 20px;
     margin: 0px auto;
     height: 50px;
-    background-color: #EB5757;
     display: flex;
     color: white;
     align-items: center;
     justify-content: space-between;
+}
+.rojo{
+    background-color: #EB5757;  
+}
+.morado{
+    background-color: #9B51E0;  
+}
+.gris{
+    background-color: #BDBDBD;  
 }

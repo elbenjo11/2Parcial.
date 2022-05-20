@@ -3,10 +3,11 @@ import Ellipse from '../Assets/Ellipse 1.png'
 import Vector from '../Assets/Vector.png'
 import { Molecula2 } from './Molecula2'
 import '../Styles/Molecula1.css'
-function Molecula1() {
+function Molecula1(props) {
+  const theme='Molecula1 '+props.theme
   return (
     <div className='card'>
-    <div className='Molecula1'>
+    <div className={theme}>
       <img src={Ellipse} alt='icono de ELIPSE'></img>
       <span className='uno'>1</span>
       <span>Agenda/Topic</span>
